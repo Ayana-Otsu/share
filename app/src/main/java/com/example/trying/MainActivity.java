@@ -1,5 +1,7 @@
 
 //Sample03
+import com.google.android.material.internal.FlowLayout;
+
 import java.awt.*;
 import java.awt.event.*;
     public class Sample03 extends Frame implements ItemListener{
@@ -10,7 +12,7 @@ import java.awt.event.*;
         //主処理
         public static void main(String ar[]){
             Frame f=new Sample03();
-            f.setTitle("ラジオボタンクリックとテキストフィールド表示");
+            f.setTitle("here");
             f.setSize(640,400);
             f.setVisible(true);
         }
